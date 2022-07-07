@@ -13,7 +13,77 @@ body{
     align-items: center;
     flex-direction: column;
 }
-.logo{
+.menu-bar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background-color: rgba(0, 255, 8, 0.824);
+    height: 50px;
+}
+.button-home{
+    background-color: #3eb73b;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    border: 0;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    left: 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.button-home:hover{
+    transform: scale(1.05);
+}
+.button-my{
+    background-color: #3eb73b;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    border: 0;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    right: 120px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    text-decoration: none;
+}
+.button-my:hover{
+    transform: scale(1.05);
+}
+.linkMy {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+.button-contact{
+    background-color: #3eb73b;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    border: 0;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    right: 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.button-contact:hover{
+    transform: scale(1.05);
+}
+.linkContact{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+.logo {
     max-width: 600px;
     margin-bottom: 24px;
 }
