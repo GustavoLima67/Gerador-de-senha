@@ -10,21 +10,29 @@
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <img src="./assets/img/logo.png" alt="Gerador de Senha logo" class="logo">
+    <div>
+        <div>
+            <img src="./assets/img/logo.png" alt="Gerador de Senha logo" class="logo">
+        </div>
+    </div>
 
+    <header class="menu-bar">
+        <div>
+            <div class="buttons">
+                <div class="buttons-menu">
+                    <button id="button-home" class="button-home">Inicial</button>
+                    <button id="button-my" class="button-my"> <a href="pageMy.html" class="linkMy">Sobre mim</a></button>
+                    <button id="button-contact" class="button-contact"> <a href="pageContact.html" class="linkContact">Contato</a></button>
+                </div>
+                <div class="button-generation-password">
+                    <button id="button" class="button-cta" onclick="generatePassword()">Gerar senha</button>
+                </div>
+            </div>
+        </div>
+    </header>
     <main class="container-input">
         <span>Tamanho <span id="valor"></span> caracteres</span>
         <input id="slider" class="'slider" type="range" min="5" max="25" value="15"/>
-
-        <div class="butons">
-            <button id="button" class="button-cta" onclick="generatePassword()">Gerar senha</button>
-            <header class="menu-bar"></header>
-            <div class="buttons-menu">
-                <button id="button-home" class="button-home">Inicial</button>
-                <button id="button-my" class="button-my"> <a href="pageMy.html" class="linkMy">Sobre mim</a></button>
-                <button id="button-contact" class="button-contact"> <a href="pageContact.html" class="linkContact">Contato</a></button>
-            </div>
-            <div class="scrollbar"></div>
         </div>
     </main>
 
