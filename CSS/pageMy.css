@@ -13,6 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
 }
 .menu-bar{
     position: absolute;
@@ -89,6 +90,103 @@ body{
 }
 
 .perfil img {
-    width: 80px;
-    margin-left: 10px;
+    position: absolute;
+    top: 90px;
+    border-radius: 150px;
+    width: 150px;
+    left: 10px;
+}
+
+.namePerfil {
+    position: absolute;
+    background-color: rgba(0,0,0, 0.40);
+    width: 400px;
+    padding-top: 10px;
+    border-radius: 25px;
+    border:  1px solid #313131;
+    cursor: pointer;
+    color: #fff;
+    left: 200px;
+    top: 120px;
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-namePerfil div div:hover > div {
+    background-color: #384459;
+    position: absolute;
+    width: 430px;
+    padding-top: 10px;
+    border-radius: 25px;
+    border:  1px solid #313131;
+    cursor: pointer;
+    color: #fff;
+    top: 0px;
+    left: -15px;
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.namePerfil p {
+    padding: 10px 7px;  
+}
+
+h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.table-github {
+    align-items: center;
+}
+
+.container-about {
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.title:hover{
+    transform: scale(1.05);
+}
+
+.text {
+    padding-bottom: 30px;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.container-about:hover .text {
+    visibility: visible;
+    bottom: 50px;
+    opacity: 1;
+    transform: scale(1.05);
+    text-align: justify;
+}
+
+
+.salesCard {
+    background-color: #283142;
+    border-radius: 10px;
+    padding: 20px 50px;
+    width: 700px;
+    left: 20px;
+    bottom: 150px;
+    position: absolute;
+}
+
+.table-email-and-linkedim img {
+    width: 100px;
+    padding-top: 10px;
 }

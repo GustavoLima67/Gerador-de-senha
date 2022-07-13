@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,31 +10,16 @@
 
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
-<body>
-    <div>
-        <div>
-            <img src="./assets/img/logo.png" alt="Gerador de Senha logo" class="logo">
-        </div>
-    </div>
 
-    <header class="menu-bar">
-        <div>
-            <div class="buttons">
-                <div class="buttons-menu">
-                    <button id="button-home" class="button-home">Inicial</button>
-                    <button id="button-my" class="button-my"> <a href="pageMy.html" class="linkMy">Sobre mim</a></button>
-                    <button id="button-contact" class="button-contact"> <a href="pageContact.html" class="linkContact">Contato</a></button>
-                </div>
-                <div class="button-generation-password">
-                    <button id="button" class="button-cta" onclick="generatePassword()">Gerar senha</button>
-                </div>
-            </div>
-        </div>
-    </header>
+<body>
+    <img src="./assets/img/logo.png" alt="Gerador de Senha logo" class="logo">
+
     <main class="container-input">
         <span>Tamanho <span id="valor"></span> caracteres</span>
-        <input id="slider" class="'slider" type="range" min="5" max="25" value="15"/>
-        </div>
+        <input id="slider" class="'slider" type="range" min="5" max="25" value="15" />
+
+        <button id="button" class="button-cta" onclick="generatePassword()">Gerar senha</button>
+
     </main>
 
     <div id="container-password" onclick="copyPassword()" class="container-password hide">
@@ -41,7 +27,17 @@
         <span id="password" class="password"></span>
         <span class="tooltip">Clique na senha para copiar. 👈👈</span>
     </div>
-    
+
+    <div class="butons">
+        <header class="menu-bar"></header>
+        <div class="buttons-menu">
+            <button id="button-home" class="button-home">Inicial</button>
+            <button id="button-my" class="button-my"> <a href="pageMy.html" class="linkMy">Sobre mim</a></button>
+            <button id="button-contact" class="button-contact"> <a href="pageContact.html" class="linkContact">Contato</a></button>
+        </div>
+    </div>
+   
     <script src="script.js"></script>
 </body>
+
 </html>
