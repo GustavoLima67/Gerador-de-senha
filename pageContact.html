@@ -1,12 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+
+    <link rel="stylesheet" href="./CSS/pageContact.css">
 </head>
+
 <body>
-    
+    <header class="menu-bar">
+        <div class="buttons-menu">
+            <div class="buttons">
+                <button class="button-contact">Contato</button>
+                <button class="button-my"> <a href="pageMy.html">Sobre mim</a> </button>
+                <button class="button-home"> <a href="index.html">Inicial</a> </button>
+            </div>
+        </div>
+    </header>
+    <section class="section-contact">
+        <div class="card-contact">
+            <form action="https://formsubmit.co/emailprofissionalGLS@gmail.com" method="post" class="contact">
+                <input type="hidden" name="accessKey" value="9684e068-8875-4bfa-8fc7-96b01f651802">
+                <span>Entre em Contato </span>
+                <div class="groups-contact">
+                    <div class="group-name">
+                        <label for="name-gmail" class="label-name" wfd-invisible="true"></label>
+                        <input type="text" name="name" placeholder="Entre com seu nome:" id="label-name" required />
+                    </div>
+                    <div class="group-gmail">
+                        <label for="gmail-label" class="label-gmail" wfid-invisible="true"></label>
+                        <input type="email" name="email" placeholder="Entre com um email válido:" id="label-gmail"
+                            required />
+                    </div>
+                    <div class="group-message">
+                        <textarea placeholder="Entre com sua mensagem:" name="message" id="text-message" cols="50"
+                            rows="4" required></textarea>
+                    </div>
+                    <div class="group-botton">
+                        <button type="submit"> ENVIAR </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="section-follow">
+        <div class="card-follow">
+            <div class="follow">
+                <span>Siga nas redes socias</span>
+                <div>
+                    <ul>
+                        <li class="social-gmail"> <a href="lgusta333@gmail.com"> <img src="./assets/img/icon-email.png"
+                                    alt="icone emaii"> </a> </li>
+                        <li class="social-github"> <a href="https://github.com/GustavoLima67"> <img
+                                    src="./assets/img/icon-github.png" alt="icone github"> </a> </li>
+                        <li class="social-linkedin"> <a href="https://www.linkedin.com/in/gustavo-lima-de-souza/"> <img
+                                    src="./assets/img/icon-linkedin.png" alt="icone linkedin"> </a> </li>
+                    </ul>
+                </div>
+                <div class="Privacy-policy">
+                    <div>
+                        <p>© 2022 Política de privacidade</p>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div>
+                        <h1>Obrigado pela atenção!!</h1>
+                        <p>
+                            Por agora isso é tudo.
+                            <br>
+                            <br>
+                            Eu gostaria de poder estar recebendo seu feedback, pra saber o que fazer e como melhorar.
+                            Não tenho muito conhecimento e estou no começo dos estudos 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>

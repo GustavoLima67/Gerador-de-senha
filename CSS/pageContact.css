@@ -1,0 +1,238 @@
+* {
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: #181818;
+    width: 100%;
+    height: 100vh;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.menu-bar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background-color: rgba(0, 255, 8, 0.824);
+    height: 50px;
+}
+
+.button-contact{
+    background-color: #3eb73b;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    border: 0;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    left: 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.button-contact:hover{
+    transform: scale(1.05);
+}
+
+.button-my{
+    background-color: #3eb73b;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    border: 0;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    right: 120px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.button-my:hover{
+    transform: scale(1.05);
+}
+
+.button-my a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-home{
+    background-color: #3eb73b;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    border: 0;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    right: 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.button-home:hover{
+    transform: scale(1.05);
+}
+
+.button-home a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.card-contact {
+    background: #FFFFFF;
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.contact span {
+    position: absolute;
+    color: #E72C66;
+    font-size: 40px;
+    top: 90px;
+    font-weight: bold;
+}
+
+.groups-contact input {
+    background-color: #FDE8EE;
+    width: 350px;
+    height: 20px;
+    border: none;
+    font-size: 20px;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+.group-name {
+    position: absolute;
+    top: 160px;
+}
+
+.group-gmail input {
+    position: absolute;
+    top: 230px;
+}
+
+.group-message textarea {
+    position: absolute;
+    background-color: #FDE8EE;
+    width: 350px;
+    height: 100px;
+    padding: 20px 20px;
+    top: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.group-botton button {
+    position: absolute;
+    width: 390px;
+    height: 50px;
+    bottom: 50px;
+    background-color: #E72C66;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.card-contact div .group-botton:hover > button {
+    background-color: #80dfff;
+}
+
+.card-follow {
+    background: #FFFFFF;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.follow span {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    bottom: 180px;
+    left: 50px;
+    color: #E72C66;
+}
+
+.social-gmail a img {
+    position: absolute;
+    list-style: none;
+    bottom: 120px;
+    left: 50px;
+    width: 40px;
+}
+
+.social-github a img {
+    position: absolute;
+    list-style: none;
+    bottom: 120px;
+    left: 100px;
+    width: 40px;
+}
+
+.social-linkedin a img {
+    position: absolute;
+    list-style: none;
+    bottom: 120px;
+    left: 150px;
+    width: 40px;
+}
+
+.Privacy-policy {
+    position: absolute;
+    color: #3F82F4;
+    bottom: 70px;
+}
+
+.feedback {
+    color: #663300;
+}
+
+.feedback h1 {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    top: 30px;
+}
+
+.feedback p {
+    position: absolute;
+    text-align: justify;
+    font-size: 23px;
+    padding: 0px 30px;
+    top: 120px;
+    left: -5px;
+}

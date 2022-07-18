@@ -56,7 +56,7 @@ body{
 .button-my:hover{
     transform: scale(1.05);
 }
-.linkMy {
+.buttons-menu a {
     font-size: 18px;
     text-decoration: none;
     color: #fff;
@@ -77,11 +77,6 @@ body{
 }
 .button-contact:hover{
     transform: scale(1.05);
-}
-.linkContact{
-    font-size: 18px;
-    text-decoration: none;
-    color: #fff;
 }
 .logo {
     max-width: 600px;

@@ -74,12 +74,7 @@ body{
 .button-home:hover{
     transform: scale(1.05);
 }
-.linkCon {
-    font-size: 18px;
-    text-decoration: none;
-    color: #fff;
-}
-.linkIni {
+.buttons-menu a {
     font-size: 18px;
     text-decoration: none;
     color: #fff;
@@ -153,12 +148,9 @@ h1 a {
     text-align: center;
     text-decoration: underline;
     padding-bottom: 20px;
-    transition: transform 0.5s;
+    font-size: 25px;
+    font-weight: bold;
     cursor: pointer;
-}
-
-.title:hover{
-    transform: scale(1.05);
 }
 
 .text {
